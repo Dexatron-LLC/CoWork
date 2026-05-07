@@ -8,3 +8,6 @@ __pycache__/
 
 # Local research notes — kept on disk, not tracked
 Research/
+
+# Build output — produced by bin/build-zips.py
+dist/
