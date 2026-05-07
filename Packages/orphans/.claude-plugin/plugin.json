@@ -1,0 +1,9 @@
+{
+  "name": "cowork-orphans",
+  "version": "0.1.0",
+  "description": "Detect and categorize orphan files in the vault. Ports the canonical Scripts/categorize_orphans.py pass and adds outbound-orphan (deadend) detection, a promote-from-Categories workflow, and per-run orphan-count trend logging.",
+  "author": {
+    "name": "Dexter J. Le Blanc Jr.",
+    "email": "Dexter@dexatron.com"
+  }
+}
