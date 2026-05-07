@@ -1,0 +1,37 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "CoWork",
+  "description": "Executable tooling for Dexter's Obsidian vault — link hygiene, glossary maintenance, and link rot detection. The vault stays plain text; CoWork is the verb layer.",
+  "owner": {
+    "name": "Dexatron LLC",
+    "email": "Dexter@dexatron.com"
+  },
+  "plugins": [
+    {
+      "name": "acronyms",
+      "description": "Maintain the vault acronym glossary: wikilink defined terms across the vault, add new entries respecting alphabetical order, detect undefined ALL-CAPS tokens, and triage the Pending section.",
+      "category": "productivity",
+      "version": "0.1.0",
+      "tags": ["obsidian", "vault", "acronyms", "glossary", "wikilinks"],
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Dexatron-LLC/CoWork.git",
+        "path": "Packages/acronyms",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "orphans",
+      "description": "Vault link hygiene: categorize files with no inbound links, find deadend notes (no outbound links), surface Categories-only candidates worth promoting, and log per-run orphan/deadend counts for trend review.",
+      "category": "productivity",
+      "version": "0.1.0",
+      "tags": ["obsidian", "vault", "orphans", "link-hygiene", "categorize"],
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Dexatron-LLC/CoWork.git",
+        "path": "Packages/orphans",
+        "ref": "main"
+      }
+    }
+  ]
+}
