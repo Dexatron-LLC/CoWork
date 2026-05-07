@@ -1,0 +1,9 @@
+{
+  "name": "cowork-acronyms",
+  "version": "0.1.0",
+  "description": "Maintain the vault Acronyms glossary: link defined terms across the vault, add new entries respecting alphabetical order, triage the Pending section, and detect undefined ALL-CAPS tokens.",
+  "author": {
+    "name": "Dexter J. Le Blanc Jr.",
+    "email": "Dexter@dexatron.com"
+  }
+}
